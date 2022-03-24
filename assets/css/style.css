@@ -2019,6 +2019,11 @@ section {
   width: 100vh;
   margin-top: -60px;
 }
+.firmbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* .p:hover {
   position: relative;
   top: 0;
@@ -2061,7 +2066,7 @@ th {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #0d2735;
+  background: #0c4260;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -2082,7 +2087,7 @@ th {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 25px 0;
 }
 
 #footer .social-links {
@@ -2170,5 +2175,61 @@ th {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+.image3OfPortarits img {
+  height: 237px;
+  object-position: 0px -19px;
+  width: 441px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image5OfPortarits img {
+  height: 248px;
+  object-position: 0px 0px;
+  /* width: 441px; */
+  overflow: hidden;
+  /* object-fit: initial; */
+}
+.image6OfPortarits img {
+  height: 248px;
+  object-position: 0px 0px;
+  /* width: 441px; */
+  overflow: hidden;
+  /* object-fit: initial; */
+}
+.firmcontainerss img {
+  margin-top: 0px;
+}
+@media (max-width: 420px) {
+  .header .logo span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 385px) {
+  .header .logo span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 416px) {
+  .headingfont {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 390px) {
+  .headingfont {
+    margin-top: 55px;
+  }
+}
+
+@media (max-width: 450px) {
+  #hero p {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  #footer h3 {
+    font-size: 29px;
   }
 }
