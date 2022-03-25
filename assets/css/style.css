@@ -2179,14 +2179,17 @@ th {
 }
 
 .image3OfPortarits img {
-  height: 237px;
+  height: 273.13px;
   object-position: 0px -19px;
   width: 441px;
   overflow: hidden;
   object-fit: cover;
 }
+.fueltimg img {
+  height: 273.13px;
+}
 .image5OfPortarits img {
-  height: 248px;
+  height: 277.73px;
   object-position: 0px 0px;
   /* width: 441px; */
   overflow: hidden;
@@ -2199,6 +2202,11 @@ th {
   overflow: hidden;
   /* object-fit: initial; */
 }
+.xximg3 img {
+  height: 248px;
+  object-position: 0px -1px;
+}
+
 .firmcontainerss img {
   margin-top: 0px;
 }
@@ -2232,4 +2240,12 @@ th {
   #footer h3 {
     font-size: 29px;
   }
+}
+
+.hgimh img {
+  height: 276.1px;
+}
+
+.hgimh1 img {
+  height: 276.1px;
 }
