@@ -2270,3 +2270,6 @@ th {
   color: rgb(206, 188, 188);
   /* color: white; */
 }
+.gm-style .place-card-large {
+  display: none;
+}
