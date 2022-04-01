@@ -936,12 +936,15 @@ section {
   color: #012970;
 }
 .about ul {
-  list-style: none;
+  /* list-style: none; */
   padding: 0;
 }
 .about ul li {
   padding-bottom: 10px;
-  font-family: serif;
+  /* font-family: serif; */
+  font-family: Book Antiqua, Palatino, Palatino Linotype, Palatino LT STD,
+    Georgia, serif;
+  /* font-family: "Gloria Hallelujah", cursive; */
   line-height: 24px;
 }
 .about ul i {
@@ -1990,6 +1993,7 @@ section {
 }
 .margintopfromIntroductionHeading {
   margin-top: 35px;
+  margin-left: 15px;
 }
 .margintopOfAboutSEction {
   margin-top: 20px;
@@ -2248,4 +2252,21 @@ th {
 
 .hgimh1 img {
   height: 276.1px;
+}
+
+.secli {
+  margin-top: 28px;
+}
+.thirdli {
+  margin-top: 28px;
+}
+
+.plusim {
+  font-size: 18px;
+  color: white;
+}
+.brack {
+  font-size: 19px;
+  color: rgb(206, 188, 188);
+  /* color: white; */
 }
