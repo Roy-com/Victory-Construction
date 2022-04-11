@@ -928,9 +928,8 @@
 
           <div class="col-lg-6">
             <form
-            
-              method="post"
-             
+         
+            action="https://formsubmit.co/victorypvb@yahoo.co.in" method="POST"
               class="php-email-form"
               id="frmSubmit"
               autocomplete="off" name="google-sheet"
@@ -1138,19 +1137,34 @@
 //       const firstNameInputs  = document.getElementById('name');
 //       var x= firstNameInputs;
 // x.value=firstNameInputs.value;
-
     </script>
-    <script>
+<script src="https://smtpjs.com/v3/smtp.js"> </script>
+<!-- <script >
+function sendEmail(){
+  Email.send({
+    Host : "smtp.gmail.com",
+    Username : "aryanroy3865@gmail.com",
+    Password : "qgaeectxdycmdoyj",
+    To : 'aryanroy3865@gmail.com',
+    From : "aryanroy3865@gmail.com",
+    Subject : "New contact form inquiry",
+    Body : "Name: "+document.getElementById('name').value
+           +"<br> Email: "+document.getElementById('email').value
+           +"<br> Subject: "+document.getElementById('subject').value
+           +"<br> Message: "+document.getElementById('message').value
+}).then(
+  message => alert("ok")
+);
+}
+</script> -->
+
+    <!-- <script>
 
 const firstNameInput  = document.getElementById('name');
 const firstemailInput = document.getElementById('email');
 const firstsubInput   = document.getElementById('subject');
 const firstmsgInput   = document.getElementById('message');
-// const nameOfPerson=firstNameInput.value+".";
-// console.log(firstNameInput.value);
-// var x= firstNameInput;
-// x.value=firstNameInput.value;
-// console.log(nameOfPerson);
+
 
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzgdyMMCb7ClG81A8qO_UIcHZJCkZOELwhgqEmbkzfoYaeB76NwB3xDhzwtOJBlop0eKw/exec'
       const form = document.forms['google-sheet']
@@ -1172,6 +1186,6 @@ const firstmsgInput   = document.getElementById('message');
 
 
 
-    </script>
+    </script> -->
   </body>
 </html>
